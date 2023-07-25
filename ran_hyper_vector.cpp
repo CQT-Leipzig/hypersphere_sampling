@@ -270,11 +270,11 @@ void rand_vect_in_situ_even(int n,double* v){
 
 int main(void)
 {
-    double *v;
+    double *w;
     w = new double[1000000];
 
     int D = 2;
-	time_t t_start,t_curr;
+    time_t t_start,t_curr;
     unsigned int N;
     int dt(10);
     
